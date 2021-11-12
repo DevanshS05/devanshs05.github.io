@@ -1,0 +1,41 @@
+body{
+  background-color:#1a1a1a;
+  color:white;
+  font-family:'Montserrat';
+  overflow-x:hidden;
+}
+
+/*Styling for the nav-bar*/
+#nav{
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+  color:#999999;
+}
+#nav-item-header{
+  float:left;
+  display:inline-block;
+  font-size:1.2rem;
+  font-weight:bolder;
+  margin-left:20px;
+}
+
+#nav-item{
+  float:right;
+  display:inline-block;
+  text-align:center;
+  padding:5px 10px;
+}
+.nav-link{
+  text-decoration:none;
+  color:#999999;
+}
+.nav-link:hover{color:white;}
+
+
+/*Styling for making the page responsive for mobile devices*/
+@media only screen and (max-width: 800px) {
+  #nav-item-header{display:none;}
+  #nav{margin-left:auto;margin-right:auto;text-align:center;}
+  #nav-item{float:none;}
+}

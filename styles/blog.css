@@ -1,0 +1,27 @@
+#mainContainer{
+  padding-top:50px;
+  max-width:600px;
+  min-width:400px;
+  width:80%;
+  margin:0px auto 0px auto;
+  text-align:center;
+}
+
+#error-img{
+  display:block;
+  height:300px;
+  width:300px;
+  border-radius:25px;
+  margin:30px auto 30px auto;
+}
+
+#message{
+  color:#66b3ff;
+  font-weight:bolder;
+  font-size:3rem;
+  margin-bottom:10px;
+}
+#subMessage{
+  margin-top:0px;
+  color:#ace600;
+}
